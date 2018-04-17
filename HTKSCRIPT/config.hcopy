@@ -1,0 +1,15 @@
+ #Cording Parameters
+ SOURCEFORMAT = WAVE
+ SOURCEKIND = WAVEFORM
+ TARGETKIND = MFCC_E_D_A # Output feature format （MFCC 39）.
+ TARGETRATE = 100000.0   # Frame shift length (10msec).
+ SAVECOMPRESSED = T      # Save output to compressed file.
+ WINDOWSIZE = 250000.0   # Frame width (25msec).
+ USEHAMMING = T          # Using hamming window.
+ PREEMCOEF = 0.97        # Pre-emphasis coefficient.
+ NUMCHANS = 20           # Number of channels of Mel-filterbank.
+ NUMCEPS = 12            # Extract the low order component 12 dimensions of Mel-filterbank.
+ CEPLIFTER = 22          # Value of liftering of cepstrum.
+ ENORMALISE = F          # Normalizing about log-energy or do not.
+ DELTAWINDOW = 2         # Window with of delta-cepstrum.
+ ACCWINDOW = 2           # Window with of delta-delta-cepstrum.
