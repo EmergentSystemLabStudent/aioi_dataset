@@ -1,5 +1,5 @@
 # Real speech dataset in the emergent systems laboratory.
------------------------------------
+
 ## Infomation
 Name: Aioi dataset  
 Author: Ryo Nakashima  
@@ -12,20 +12,20 @@ and five three-word sentences, i.e., “ie ie uo,” “uo aue ie,” “ao ie a
 Each sentence was read by a native Japanese speaker twice and recorded in the dataset.
 -----------------------------------
 ## File list
--DATA/ (Speech data.)
--HTKSCRIPT/ (Scripts to convert to MFCC using HTK.)
--NORMALIZE/ (Speech data which was adjusted volume and added a silent section in beginning and ending．)
--ORIGINAL/ (Original recorded data. No adjusted, e.g., sampling-rate.)
--PHONELABEL/ (Phoneme labels.)
--PHONELABELF/ (Phoneme labels in each frame.)
--WORDLABEL/ (Word labels.)
--WORDLAEELF/ (Word labels in each frame.)
--aioi_3dim/
-  -DATA/ (3-dimensional MFCC features which compressed by deep sparse auto-encoder.)
-  -LABEL/ (Label datas.)
--aioi_12dim/
-  -DATA/ (12-dimensional MFCC features which picked from 39-dimentional MFCC features.)
-  -LABEL/ (Label datas.)
+- DATA/ (Speech data.)
+- HTKSCRIPT/ (Scripts to convert to MFCC using HTK.)
+- NORMALIZE/ (Speech data which was adjusted volume and added a silent section in beginning and ending．)
+- ORIGINAL/ (Original recorded data. No adjusted, e.g., sampling-rate.)
+- PHONELABEL/ (Phoneme labels.)
+- PHONELABELF/ (Phoneme labels in each frame.)
+- WORDLABEL/ (Word labels.)
+- WORDLAEELF/ (Word labels in each frame.)
+- aioi_3dim/
+  - DATA/ (3-dimensional MFCC features which compressed by deep sparse auto-encoder.)
+  - LABEL/ (Label datas.)
+- aioi_12dim/
+  - DATA/ (12-dimensional MFCC features which picked from 39-dimentional MFCC features.)
+  - LABEL/ (Label datas.)
 -----------------------------------
 ## Quick start
 You can use 3 or 12 features in aioi_3dim or aioi_12dim directories.
