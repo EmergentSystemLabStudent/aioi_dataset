@@ -4,13 +4,13 @@
 Name: Aioi dataset  
 Author: Ryo Nakashima  
 Subject: Kaede Hayashi  
-
 The data consists of 60 spoken sentences comprised of five words, and five vowels.
 Five artificial words {aioi, aue, ao, ie, uo}, which contain five Japanese vowels {a, i, u, e, o} were prepared.
 By connecting the words, 30 sentences that included all possible two-word sentences, e.g., “aioi ao,” “aue aue,” and “ie aioi,”;
 and five three-word sentences, i.e., “ie ie uo,” “uo aue ie,” “ao ie ao,” “aue ao ie,” and “aioi uo ie” were prepared.
 Each sentence was read by a native Japanese speaker twice and recorded in the dataset.
------------------------------------
+
+
 ## File list
 - DATA/ (Speech data.)
 - HTKSCRIPT/ (Scripts to convert to MFCC using HTK.)
@@ -26,7 +26,8 @@ Each sentence was read by a native Japanese speaker twice and recorded in the da
 - aioi_12dim/
   - DATA/ (12-dimensional MFCC features which picked from 39-dimentional MFCC features.)
   - LABEL/ (Label datas.)
------------------------------------
+
+
 ## Quick start
 You can use 3 or 12 features in aioi_3dim or aioi_12dim directories.
 If you want to read features to Python code, you could include read using loadtxt function which in Numpy.
@@ -35,7 +36,8 @@ E.g., as follows.
 import numpy as np
 features = np.loadtxt("aioi_3dim/DATA/aioi_aioi.txt")
 ```
------------------------------------
+
+
 ## How to use
 Preparation: install [HTK](http://htk.eng.cam.ac.uk/).
 1. Make a directory.
