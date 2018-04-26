@@ -11,5 +11,5 @@
  NUMCEPS = 12            # Extract the low order component 12 dimensions of Mel-filterbank.
  CEPLIFTER = 22          # Value of liftering of cepstrum.
  ENORMALISE = F          # Normalizing about log-energy or do not.
- DELTAWINDOW = 2         # Window with of delta-cepstrum.
- ACCWINDOW = 2           # Window with of delta-delta-cepstrum.
+ DELTAWINDOW = 2         # Window size of delta-cepstrum.
+ ACCWINDOW = 2           # Window size of delta-delta-cepstrum.
