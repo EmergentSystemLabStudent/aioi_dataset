@@ -1,14 +1,11 @@
-# Real speech dataset in the emergent systems laboratory.
+# Japanese native speech dataset
 
 ## Infomation
-Name: Aioi dataset  
-Author: Ryo Nakashima  
-Subject: Kaede Hayashi  
-The data consists of 60 spoken sentences comprised of five words, and five vowels.
-Five artificial words {aioi, aue, ao, ie, uo}, which contain five Japanese vowels {a, i, u, e, o} were prepared.
-By connecting the words, 30 sentences that included all possible two-word sentences, e.g., “aioi ao,” “aue aue,” and “ie aioi,”;
-and five three-word sentences, i.e., “ie ie uo,” “uo aue ie,” “ao ie ao,” “aue ao ie,” and “aioi uo ie” were prepared.
-Each sentence was read by a native Japanese speaker twice and recorded in the dataset.
+Name: AIOI dataset 
+The AIOI dataset consists of 60 spoken sentences combined 5 words of 5 Japanese vowels, such as {aioi, aue, ao, ie, uo}.
+By connecting the words, 30 sentences that included all possible two-word sentences, e.g., “aioi ao,” “aue aue,” and “ie aioi,” 
+and 5 three-word sentences, such as  “ie ie uo,” “uo aue ie,” “ao ie ao,” “aue ao ie,” and “aioi uo ie” are prepared.
+Each sentence is spoken twice by a native Japanese speaker  and recorded in the dataset.
 
 
 ## File list
@@ -30,8 +27,7 @@ Each sentence was read by a native Japanese speaker twice and recorded in the da
 
 ## Quick start
 You can use 3 or 12 features in aioi_3dim or aioi_12dim directories.
-If you want to read features to Python code, you could include read using loadtxt function which in Numpy.
-E.g., as follows.
+If you want to read features to Python code, you could include read using loadtxt function which in Numpy as follows.
 ```
 import numpy as np
 features = np.loadtxt("aioi_3dim/DATA/aioi_aioi.txt")
