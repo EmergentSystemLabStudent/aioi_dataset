@@ -1,9 +1,9 @@
 # Japanese native speech dataset
 
 ## Infomation
-Name: AIOI dataset 
+Name: AIOI dataset
 The AIOI dataset consists of 60 spoken sentences combined 5 words of 5 Japanese vowels, such as {aioi, aue, ao, ie, uo}.
-By connecting the words, 30 sentences that included all possible two-word sentences, e.g., “aioi ao,” “aue aue,” and “ie aioi,” 
+By connecting the words, 30 sentences that included all possible two-word sentences, e.g., “aioi ao,” “aue aue,” and “ie aioi,”
 and 5 three-word sentences, such as  “ie ie uo,” “uo aue ie,” “ao ie ao,” “aue ao ie,” and “aioi uo ie” are prepared.
 Each sentence is spoken twice by a native Japanese speaker  and recorded in the dataset.
 
@@ -31,6 +31,12 @@ If you want to read features to Python code, you could include read using loadtx
 ```
 import numpy as np
 features = np.loadtxt("aioi_3dim/DATA/aioi_aioi.txt")
+```
+or
+```
+import numpy as np
+all_features = np.load("aioi_3dim/npz/data.npz")
+features = all_features["aioi_aioi"]
 ```
 
 
