@@ -1,7 +1,7 @@
-# Japanese native speech dataset
+# Japanese vowel native speech dataset
 
 ## Infomation
-Name: AIOI dataset
+Name: AIOI dataset <br>
 The AIOI dataset consists of 60 spoken sentences combined 5 words of 5 Japanese vowels, such as {aioi, aue, ao, ie, uo}.
 By connecting the words, 30 sentences that included all possible two-word sentences, e.g., “aioi ao,” “aue aue,” and “ie aioi,”
 and 5 three-word sentences, such as  “ie ie uo,” “uo aue ie,” “ao ie ao,” “aue ao ie,” and “aioi uo ie” are prepared.
